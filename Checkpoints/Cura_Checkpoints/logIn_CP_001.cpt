@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>logIn_CP_001</name>
+   <tag></tag>
+   <source-info>
+      <is-from-test-data>true</is-from-test-data>
+      <source-url>Data Files/invalid_cred</source-url>
+   </source-info>
+   <taken-date>2024-01-25T20:25:13.034+05:30</taken-date>
+   <column-names>
+      <column-name>username</column-name>
+      <column-name>password</column-name>
+   </column-names>
+   <checkpoint-data><![CDATA[[
+  [
+    {
+      "value": "John paul",
+      "checked": false
+    },
+    {
+      "value": "John@123",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "Alice",
+      "checked": false
+    },
+    {
+      "value": "alice123@",
+      "checked": false
+    }
+  ]
+]]]></checkpoint-data>
+</checkpoint>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>appointment_CP_001</name>
+   <tag></tag>
+   <source-info>
+      <is-from-test-data>true</is-from-test-data>
+      <source-url>Data Files/appointment_data</source-url>
+   </source-info>
+   <taken-date>2024-01-25T20:27:12.925+05:30</taken-date>
+   <column-names>
+      <column-name>facility</column-name>
+   </column-names>
+   <checkpoint-data><![CDATA[[
+  [
+    {
+      "value": "Tokyo CURA Healthcare Center",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "Hongkong CURA Healthcare Center",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "Seoul CURA Healthcare Center",
+      "checked": false
+    }
+  ]
+]]]></checkpoint-data>
+</checkpoint>

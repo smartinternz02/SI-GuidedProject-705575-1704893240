@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>84bf3ab2-af82-4c95-bb2d-f9bcce55f80b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/appointment_page/TC_Cura_005</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -36,7 +36,7 @@
    <testCaseLink>
       <guid>5fe22c89-7d78-4cf2-9f48-64ca8623952c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/appointment_page/TC_Cura_006</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

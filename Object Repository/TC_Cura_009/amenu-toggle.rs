@@ -6,12 +6,12 @@
    <elementGuidId>36acfc8a-6a9e-4a89-b592-7a929cfc15df</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='menu-toggle']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#menu-toggle</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(@href, '#')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

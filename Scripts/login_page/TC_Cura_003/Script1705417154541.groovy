@@ -16,7 +16,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
@@ -31,4 +30,4 @@ WebUI.click(findTestObject('Object Repository/TC_Cura_003/Page_CURA Healthcare S
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/TC_Cura_003/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5'), 
     0)
-
+WebUI.closeBrowser()
