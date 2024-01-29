@@ -20,9 +20,6 @@ import org.openqa.selenium.Keys as Keys
 WebUI.selectOptionByValue(findTestObject('Object Repository/TC_Cura_005/select_Tokyo CURA Healthcare Center        _5b4107'), 
     facility, true)
 
-CustomKeywords.'cura_custom_keyword_001.Check_DropDown.check_drop_downlistexits'(findTestObject('TC_Cura_005/select_Tokyo CURA Healthcare Center        _5b4107'), 
-    facility)
-
 WebUI.check(findTestObject('Object Repository/TC_Cura_005/label_Apply for hospital readmission'))
 
 WebUI.check(findTestObject('Object Repository/TC_Cura_005/label_Medicaid'))

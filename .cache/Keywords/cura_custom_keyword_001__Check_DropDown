@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "FCCF4EDF42852A2F1CF442DBA8E06F29",
+  "keywordFileContentHash": "AFFDF6B9C4DDC8955931D271BF05BF8E",
   "keywordClasses": [
     {
       "name": "cura_custom_keyword_001.Check_DropDown",
@@ -33,10 +33,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

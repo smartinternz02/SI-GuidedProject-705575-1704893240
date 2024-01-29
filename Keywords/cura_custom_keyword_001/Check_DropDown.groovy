@@ -5,7 +5,6 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.checkpoint.Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
@@ -26,19 +25,17 @@ public class Check_DropDown {
 	@Keyword
 	def check_drop_downlistexits(TestObject object,String option){
 		boolean flag = false;
-			WebElement element = WebUiCommonHelper.findWebElement(object,20);
-			Select dd1=new Select(element);
-			for(WebElement ele : dd1.getOptions()) {
-				if(ele.getText()().equals(option)) {
+		WebElement element = WebUiCommonHelper.findWebElement(object,20);
+		Select dd1=new Select(element);
+		for(WebElement ele : dd1.getOptions()) {
+			if(ele.getText()().equals(option)) {
 				System.out.println("element Exists");
 				flag=true;
-				}
-				else {
-					System.out.println("element not exists");
-					
-				}
 			}
-			return flag;
-		
+			else {
+				System.out.println("element not exists");
+			}
+		}
+		return flag;
 	}
 }
