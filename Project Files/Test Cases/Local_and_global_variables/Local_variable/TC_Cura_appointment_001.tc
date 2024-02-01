@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Cura_appointment_001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>662c45eb-dcf4-4b94-b675-ae28e0c2a187</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>dc4cd14c-3d60-46fb-84db-9018118bbb6a</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/appointment_data</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>dc4cd14c-3d60-46fb-84db-9018118bbb6a</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>facility</value>
+      <variableId>4ede5ecf-8b83-4cd6-9b07-d7bccf674293</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4ede5ecf-8b83-4cd6-9b07-d7bccf674293</id>
+      <masked>false</masked>
+      <name>facility</name>
+   </variable>
+</TestCaseEntity>
