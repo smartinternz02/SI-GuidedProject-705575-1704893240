@@ -27,3 +27,6 @@ Exciting updates! I'm thrilled to introduce the CURA Healthcare Service project,
 **Business Impact:**
 - Increased patient satisfaction contributing to a positive reputation.
 - Operational efficiency through optimized resource utilization.
+  **Video recording of this project**
+  https://youtu.be/rnJ-hb3ucBM?si=fQQpM2shlafGIGHb
+  
